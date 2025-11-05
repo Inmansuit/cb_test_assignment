@@ -8,7 +8,7 @@
     "format:verify": "npx prettier --check .",
     "test": "npx playwright test && npx playwright show-report",
     "test:report": "npx playwright show-report",
-    "test:api": "npx playwright test /tests/fixtures/data/api/. ",
+    "test:api": "npx playwright test /tests/api/. ",
     "test:e2e": "npx playwright test /tests/e2e/.",
     "test:login": "npx playwright test loginTest.spec.ts",
     "test:signup": "npx playwright test signupTest.spec.ts",
