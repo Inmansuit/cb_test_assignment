@@ -1,0 +1,154 @@
+{
+  "uuid": "a6e29a34-a9ce-4e0e-8e60-709aa58f9abf",
+  "name": "Verify successful signup",
+  "historyId": "e9f724a01dcee4771025c5f89b5811e4:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1762307177764,
+              "uuid": "4e2d75ea-cd03-4f90-ad70-141f684f0a5c",
+              "stop": 1762307177765
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1762307177762,
+          "uuid": "4919f23f-63bb-41ef-892e-bb50a786ea6a",
+          "stop": 1762307177766
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"testUser\"",
+          "start": 1762307177766,
+          "uuid": "993b8673-8d77-4675-ac20-d981f2bea449",
+          "stop": 1762307177766
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1762307177758,
+      "uuid": "36a48171-b3a7-4204-990d-9acccf8a4ebe",
+      "stop": 1762307177766
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307177767,
+      "name": "POST \"/api/registration/signup/jackEntertainment/\"",
+      "uuid": "93a279fe-85a3-4392-ad37-7b9c9cd7c2be",
+      "stop": 1762307178198
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307178199,
+      "name": "Expect \"toBe\"",
+      "uuid": "961e1d44-5c88-4721-ad98-472fdc94880d",
+      "stop": 1762307178199
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307178200,
+      "name": "Expect \"toBeTruthy\"",
+      "uuid": "f8991e19-8207-4a7f-ab4c-d5de501a5548",
+      "stop": 1762307178200
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"testUser\"",
+          "start": 1762307178201,
+          "uuid": "d98b1ccb-2e6d-4fbd-b029-d79d538d9c1f",
+          "stop": 1762307178201
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1762307178201,
+          "uuid": "41a495ce-58aa-4baf-bdbb-09d8d2d3f20d",
+          "stop": 1762307178203
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1762307178200,
+      "uuid": "64b58c4f-4d77-43f8-8406-d889ea7f5a0b",
+      "stop": 1762307178207
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "fixtures.data.api.auth.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > firefox > fixtures/data/api/auth.spec.ts"
+    },
+    { "name": "host", "value": "MacnCheese.local" },
+    { "name": "thread", "value": "pid-4304-worker-4" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "fixtures/data/api/auth.spec.ts" }
+  ],
+  "links": [],
+  "start": 1762307177757,
+  "testCaseId": "e9f724a01dcee4771025c5f89b5811e4",
+  "fullName": "fixtures/data/api/auth.spec.ts:4:5",
+  "titlePath": ["fixtures", "data", "api", "auth.spec.ts"],
+  "stop": 1762307178198
+}

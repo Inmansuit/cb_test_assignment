@@ -1,0 +1,172 @@
+{
+  "uuid": "20a0aafe-4ce4-4084-a883-b6b0bfdfa518",
+  "name": "Verify user has registration bonus",
+  "historyId": "e09a1f619a424f546a514d9a13d29d2e:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 403",
+    "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 403\n    at /Users/inmansuit/Documents/projects/cb_test_assignment/tests/fixtures/data/api/bonus-api.spec.ts:24:29"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1762307176805,
+              "uuid": "a238cd6f-5ca9-43eb-86ce-b733113343c2",
+              "stop": 1762307176806
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1762307176803,
+          "uuid": "91ea955f-07d1-4fd3-9cd8-75845658af04",
+          "stop": 1762307176806
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"regUser\"",
+          "start": 1762307176807,
+          "uuid": "aefba2f0-b426-402d-a8d9-4a963dd93f08",
+          "stop": 1762307176807
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1762307176798,
+      "uuid": "36c74f37-112c-4a7a-8185-29546f7c2d0b",
+      "stop": 1762307176807
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307176808,
+      "name": "POST \"/api/login/jackEntertainment/credentials\"",
+      "uuid": "ab137832-3f9a-46fa-b97c-cb4376d15cbc",
+      "stop": 1762307177122
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307177123,
+      "name": "Expect \"toBe\"",
+      "uuid": "bcc9fde3-5dbb-4129-b771-254fce99b172",
+      "stop": 1762307177123
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307177124,
+      "name": "POST \"/api/accounts/movements/\"",
+      "uuid": "0dea9e4f-32bc-44e3-81d0-b41be29214bb",
+      "stop": 1762307177325
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 403",
+        "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 403\n    at /Users/inmansuit/Documents/projects/cb_test_assignment/tests/fixtures/data/api/bonus-api.spec.ts:24:29"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307177326,
+      "name": "Expect \"toBe\"",
+      "uuid": "16a31aa9-6bea-4813-89fb-720c8ea0929b",
+      "stop": 1762307177327
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"regUser\"",
+          "start": 1762307177328,
+          "uuid": "b830fed4-d04d-4b3d-b272-eaee320b1fe7",
+          "stop": 1762307177328
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1762307177328,
+          "uuid": "ccc4e976-a7ac-4fe6-b7da-1ccdfdb6c83d",
+          "stop": 1762307177331
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1762307177327,
+      "uuid": "71421c3a-196d-4a51-99e2-f672ccfb55fc",
+      "stop": 1762307177333
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "fixtures.data.api.bonus-api.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > fixtures/data/api/bonus-api.spec.ts"
+    },
+    { "name": "host", "value": "MacnCheese.local" },
+    { "name": "thread", "value": "pid-4304-worker-4" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "fixtures/data/api/bonus-api.spec.ts" }
+  ],
+  "links": [],
+  "start": 1762307176801,
+  "testCaseId": "e09a1f619a424f546a514d9a13d29d2e",
+  "fullName": "fixtures/data/api/bonus-api.spec.ts:6:5",
+  "titlePath": ["fixtures", "data", "api", "bonus-api.spec.ts"],
+  "stop": 1762307177328
+}

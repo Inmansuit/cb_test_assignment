@@ -1,0 +1,178 @@
+{
+  "uuid": "e4bcab0e-bfa0-4308-9fab-33685adad31e",
+  "name": "Verify user has registration bonus",
+  "historyId": "e09a1f619a424f546a514d9a13d29d2e:84e28e814b821ed013329cc8dbc467e0",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1762307184263,
+              "uuid": "2acdf83e-85b2-4dc6-b9a0-a46b8fd9ee35",
+              "stop": 1762307184264
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1762307184263,
+          "uuid": "d6b76b1e-903b-41ba-8bed-97037e3459ec",
+          "stop": 1762307184264
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"regUser\"",
+          "start": 1762307184264,
+          "uuid": "7e7056f7-feb7-463f-810d-a269673c4ba6",
+          "stop": 1762307184264
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1762307184261,
+      "uuid": "1c83937e-3295-4100-9552-a46558e2d771",
+      "stop": 1762307184264
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307184265,
+      "name": "POST \"/api/login/jackEntertainment/credentials\"",
+      "uuid": "e72646e6-a94a-4ed2-a30e-3d067384b569",
+      "stop": 1762307184499
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307184499,
+      "name": "Expect \"toBe\"",
+      "uuid": "cc90c5fc-0e42-42c9-baba-252934e44e10",
+      "stop": 1762307184499
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307184500,
+      "name": "POST \"/api/accounts/movements/\"",
+      "uuid": "1a1b6cc7-b32f-4ffa-9b51-68e47c50e1c1",
+      "stop": 1762307184700
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307184700,
+      "name": "Expect \"toBe\"",
+      "uuid": "98142edb-e397-4d46-b6b5-b59a432d8afc",
+      "stop": 1762307184700
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762307184703,
+      "name": "Registration bonus should exist after signup",
+      "uuid": "a4fffa8d-8cbb-4d9d-ae1d-d8a26116c360",
+      "stop": 1762307184704
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"regUser\"",
+          "start": 1762307184704,
+          "uuid": "9885b664-a44d-46fb-a1a1-8311bccf2a18",
+          "stop": 1762307184704
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1762307184704,
+          "uuid": "0a45d668-0820-48f1-a422-d9ae1a558365",
+          "stop": 1762307184705
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1762307184704,
+      "uuid": "5eb72af8-90ad-410a-9bc2-ade09252c643",
+      "stop": 1762307184710
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "fixtures.data.api.bonus-api.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > webkit > fixtures/data/api/bonus-api.spec.ts"
+    },
+    { "name": "host", "value": "MacnCheese.local" },
+    { "name": "thread", "value": "pid-4304-worker-1" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "fixtures/data/api/bonus-api.spec.ts" }
+  ],
+  "links": [],
+  "start": 1762307184261,
+  "testCaseId": "e09a1f619a424f546a514d9a13d29d2e",
+  "fullName": "fixtures/data/api/bonus-api.spec.ts:6:5",
+  "titlePath": ["fixtures", "data", "api", "bonus-api.spec.ts"],
+  "stop": 1762307184704
+}

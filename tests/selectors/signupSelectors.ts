@@ -1,0 +1,15 @@
+export const SignupSelectors = {
+  headerSignup: '[data-qa="signup_btn"]',
+  usernameInput: '[data-qa="signup_username"]',
+  emailInput: '[data-qa="signup_email"]',
+  passwordInput: '[data-qa="signup_password"]',
+  promoCode: '[data-qa="promotions_promo_code"]',
+  applyPromo: '[data-qa="promotions_apply_btn""]',
+  rememberMeCheck: '[data-qa="login_remember_me_check"]',
+  signupButton: '[data-qa="signup_submit_btn"]',
+  errorMessage: '[data-qa="error"]',
+  signupPopup: '[data-qa="daily_login_pop_up"]',
+  userBalance: '[data-qa="balance"]',
+  termsAndCon: '[data-qa="terms-and-conditions"]',
+  agreeCheck: '[data-qa="signup_checkbox"]',
+};

@@ -1,0 +1,28 @@
+{
+  "name": "coolbet-ta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write .",
+    "format:verify": "npx prettier --check .",
+    "test": "npx playwright test && npx playwright show-report",
+    "test:report": "npx playwright show-report",
+    "test:api": "npx playwright test /tests/fixtures/data/api/. ",
+    "test:e2e": "npx playwright test /tests/e2e/.",
+    "test:login": "npx playwright test loginTest.spec.ts",
+    "test:signup": "npx playwright test signupTest.spec.ts",
+    "test:bonus": "npx playwright test bonus-api.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2"
+  },
+  "dependencies": {
+    "playwright": "^1.56.1"
+  }
+}
