@@ -38,7 +38,7 @@ My goal was to demonstrate an understanding of how test architecture should evol
 - **Fixtures** are used for reusable setups such as authentication and test data initialization.
 - **Selectors** and **utility functions** are organized into dedicated files to reduce duplication and improve readability.
 
-While I did not yet implement a full **(POM)** or centralized **config/environment** handling, the current setup is structured with those patterns in mind.
+While I did not yet implement a full **POM** or centralized **config/environment** handling, the current setup is structured with those patterns in mind.
 Given more time, I would:
 
 - Refactor repetitive UI interactions into Page Objects.
@@ -56,7 +56,8 @@ Given more time, I would:
 1. Clone repository and navigate:
 
 ```
-https://github.com/inmansuit/cb_test_assignment.git
+git clone git@github.com:Inmansuit/cb_test_assignment.git
+cd cb_test_assignment
 ```
 
 2. Istall depepndencies:
@@ -67,52 +68,38 @@ npm install
 
 ## Running Tests
 
-- To run all tests:
-
-```
-npm run test
-```
-
-- To run all API tests:
-
-```
-npm run test:api
-```
-
-- To run all e2e:
-
-```
-npm run test:e2e
-```
-
-- To run signup flow:
-
-```
-npm run test:signup
-```
-
-- To run login flow:
-
-````
-npm run test:login
-```
-
-- To run bonus API:
-
-````
-npm run test:bonus
-```
+- **Run all tests:**
+  ```
+  npm run test
+  ```
+- **Run all API tests:**
+  ```
+  npm run test:api
+  ```
+- **Run all E2E tests:**
+  ```
+  npm run test:e2e
+  ```
+- **Run signup flow:**
+  ```
+  npm run test:signup
+  ```
+- **Run login flow:**
+  ```
+  npm run test:login
+  ```
+- **Run bonus API:**
+  ```
+  npm run test:bonus
+  ```
 
 ### Development
 
-To format code consistently:
-
-```
-npm run format
-```
-
-To ensure code consistency, formatting can be verified before committing changes:
-
-```
-npm run format:verify
-```
+- **Format code:**
+  ```
+  npm run format
+  ```
+- **Verify formatting:**
+  ```
+  npm run format:verify
+  ```
