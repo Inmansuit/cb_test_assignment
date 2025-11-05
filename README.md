@@ -96,13 +96,10 @@ npm run test:signup
 ````
 npm run test:login
 ```
+
 - To run bonus API:
 ````
-
 npm run test:bonus
-
-```
-
 ```
 
 ### Development
