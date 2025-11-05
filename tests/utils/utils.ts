@@ -1,10 +1,3 @@
-import { expect, Page } from "@playwright/test";
-
-export async function homePage(page: Page) {
-  await page.goto("https://playjack.com/");
-  await expect(this.page).toHaveURL(/.*\/$/);
-}
-
 export const defaultPass: string = "!Test123";
 
 export const bonusHistoryRange = (
